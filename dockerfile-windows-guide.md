@@ -357,10 +357,5 @@ COPY script.sh /app/
 RUN dos2unix /app/script.sh && chmod +x /app/script.sh
 ```
 
-## Conclusion
+## End
 
-You now have the knowledge to create Dockerfiles, build custom images, and run containers on your Windows system. As you get more comfortable, you can explore more advanced features like Docker Compose for multi-container applications.
-
-Remember that Docker images you create locally can be pushed to Docker Hub or private registries to share with others or deploy to production environments.
-
-Happy Dockerizing!
